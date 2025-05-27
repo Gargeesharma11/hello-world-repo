@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gargee Sharma | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1><span class="highlight">Gargee</span> Sharma</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="container">
+      <h2>Hi, I'm <span class="highlight">Gargee Sharma</span></h2>
+      <h3>A <span class="typing"></span></h3>
+      <p>B.E. CSE student at Chandigarh University with a passion for web development and design.</p>
+      <a href="resume.pdf" download class="btn">Download Resume</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I am currently pursuing a Bachelor of Engineering in Computer Science at Chandigarh University.
+        I enjoy building user-friendly, responsive websites and web apps. I'm skilled in HTML, CSS,
+        JavaScript, and continuously exploring frameworks like React and tools like Git.
+      </p>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="images/project1.png" alt="Project 1">
+          <h3>Task Manager App</h3>
+          <p>A to-do list web app using JavaScript and Firebase for real-time updates.</p>
+        </div>
+        <div class="project-card">
+          <img src="images/project2.png" alt="Project 2">
+          <h3>Responsive Portfolio</h3>
+          <p>Personal portfolio website showcasing skills, built with HTML, CSS, and JS.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Gargee Sharma. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
